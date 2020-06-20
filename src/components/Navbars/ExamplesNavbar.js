@@ -3,10 +3,6 @@ import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
@@ -34,7 +30,7 @@ function ExamplesNavbar() {
       }
     };
     window.addEventListener("scroll", updateNavbarColor);
-    
+
     return function cleanup() {
       window.removeEventListener("scroll", updateNavbarColor);
     };
@@ -145,7 +141,7 @@ function ExamplesNavbar() {
                   id="twitter-tooltip"
                 >
                   <i className="fab fa-twitter"></i>
-                  
+
                   <p className="d-lg-none d-xl-none">Twitter</p>
                 </NavLink>
                 <UncontrolledTooltip target="#twitter-tooltip">
