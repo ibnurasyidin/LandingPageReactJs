@@ -18,7 +18,7 @@ ReactDOM.render(
     <Switch>
       <Switch>
         <Route
-            path="/index"
+            path="/"
             render={props => <LandingPage {...props} />}
         />
         <Route
