@@ -9,7 +9,7 @@ Now UI Kit is one of the most popular UI Kits online, provided in PSD and Sketch
 Create awesome, lifelike prototypes with InVision and Now so your users can experience and give feedback on your vision!
 
 To get the PSD and Sketch files, please visit [Invision](https://www.invisionapp.com/inside-design/design-resources/now/?ref=creativetim). We used 100 Icons from our friends from Nucleo Icons, check their [12.000 icons here](https://nucleoapp.com/?ref=1712).
-
+  
 ### React Hooks support
 
 Now UI Kit React is built on top of Bootstrap 4 using React and Reactstrap, so it fully supports React Hooks.

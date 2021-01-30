@@ -97,13 +97,14 @@ function ExamplesNavbar() {
             <NavbarBrand
               href="#"
               target="_blank"
-              id="navbar-brand"
+              style={{fontFamily:"emoji !important"}}
             >
-             Tajriy Creative Studio
+
+             Tajriy
             </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Designed by Tajriy. Coded by tri
-            </UncontrolledTooltip>
+           {/* <UncontrolledTooltip target="#navbar-brand">
+              Designed by Tri. Coded by tri
+            </UncontrolledTooltip>*/}
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {

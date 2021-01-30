@@ -9,7 +9,7 @@
         vertical-align: middle;
 
         &:not(.btn):not(.dropdown-item){
-            color:gray;
+            color: #000000;
         }
     }
 
@@ -100,8 +100,9 @@
     }
 
     .navbar-brand{
-        text-transform: uppercase;
-        font-size: $font-size-large;
+        font-family: "Nunito Sans";
+        font-weight: bold;
+        font-size: $font-size-large-navbar;
         padding-top: $padding-base-vertical;
         padding-bottom: $padding-base-vertical;
         line-height: $line-height-nav-link;

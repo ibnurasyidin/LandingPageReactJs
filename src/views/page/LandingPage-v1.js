@@ -40,8 +40,11 @@ function LandingPage() {
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Tajriy</h2>
                 <h5 className="description">
-                  Partner dan Layanan Informasi Teknologi
-                  untuk Bisnis Kamu
+                  According to the National Oceanic and Atmospheric
+                  Administration, Ted, Scambos, NSIDClead scentist, puts the
+                  potentially record low maximum sea ice extent tihs year down
+                  to low ice extent in the Pacific and a late drop in ice extent
+                  in the Barents Sea.
                 </h5>
               </Col>
             </Row>

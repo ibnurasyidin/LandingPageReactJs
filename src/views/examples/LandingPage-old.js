@@ -55,6 +55,7 @@ function LandingPage() {
 
 
                                 <Col md="4">
+
                                     <div
                                         className="image-container image-left category"
                                         style={{
@@ -71,6 +72,47 @@ function LandingPage() {
                     </div>
                 </div>
                 <div className="separator separator-primary"></div>
+                <div className="section section-story-overview">
+                    <div className="section ">
+                        <Container>
+                            <Row>
+                                <Col md="4">
+
+                                    <div
+                                        className="image-container-section2 image-right"
+                                        style={{
+                                            backgroundImage:
+                                                "url(" + require("assets/img/free-websites.png") + ")"
+                                        }}
+                                    ></div>
+
+                                </Col>
+
+                                <Col md="8" className="align-section-2 zIndex">
+                                    <div className="align-right">
+                                        <h2 className="title title-padding-top">Apa yang anda Butuhkan?</h2>
+                                        <h5 className="description right">
+                                            Selain membantu mengembangkan bisnis kamu,<br/>
+                                            kami juga menyediakan layanan website gratis
+                                            <br/>non profit untuk siapapun!
+                                        </h5>
+                                        <Button
+                                            className="btn-round mr-1"
+                                            color="info"
+                                            href="/nucleo-icons"
+                                            size="lg"
+                                            target="_blank"
+                                        >
+                                            Info Selengkapnya
+                                        </Button>
+                                    </div>
+                                </Col>
+
+
+                            </Row>
+                        </Container>
+                    </div>
+                </div>
 
                 <div className="section section-our-services">
                     <Container>
