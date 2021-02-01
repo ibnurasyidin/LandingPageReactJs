@@ -42,13 +42,22 @@ function LandingPage() {
                                         professional untuk kemajuan bisnismu
                                     </h5>
                                     <Button
-                                        className="btn-round mr-1"
+                                        className="btn-default mr-5 mt-5"
                                         color="info"
                                         href="/nucleo-icons"
                                         size="lg"
                                         target="_blank"
                                     >
                                         Kirim Penawaran
+                                    </Button>
+                                    <Button
+                                        className="btn-default btn-outline-info mr-1 mt-5"
+                                        color="info"
+                                        href="/nucleo-icons"
+                                        size="lg"
+                                        target="_blank"
+                                    >
+                                        Cek Harga
                                     </Button>
 
                                 </Col>

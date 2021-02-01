@@ -9,7 +9,7 @@ import {
   NavLink,
   Nav,
   Container,
-  UncontrolledTooltip
+  UncontrolledTooltip, Button
 } from "reactstrap";
 
 function ExamplesNavbar() {
@@ -89,9 +89,8 @@ function ExamplesNavbar() {
           <img
                       alt="..."
                       className="rounded-circle img-fluid "
-                      //img-raised
                       src={require("assets/img/logo-tajriy.png")}
-                      width="40" height="40"
+                      width="60" height="60"
                     ></img>
                     </NavbarBrand>
             <NavbarBrand
@@ -127,15 +126,42 @@ function ExamplesNavbar() {
             <Nav navbar>
               <NavItem>
                 <NavLink to="/index" tag={Link}>
-                 Developer
+                 Website
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
-                  Tentang Kami
+                  Aplikasi Mobile
                 </NavLink>
               </NavItem>
               <NavItem>
+                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                  Minta Meeting
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                  Portofolio
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                  Blog
+                </NavLink>
+              </NavItem>
+              <NavItem>
+              <Button
+                  className="btn-round mr-2"
+                  color="warning"
+                  //href="/nucleo-icons"
+                  size="sm"
+                  //style="margin-top: 5px;"
+                  target="_blank"
+              >
+                Hubungi Kami
+              </Button>
+              </NavItem>
+              {/*<NavItem>
                 <NavLink
                   href="https://twitter.com/CreativeTim?ref=creativetim"
                   target="_blank"
@@ -174,7 +200,7 @@ function ExamplesNavbar() {
                 <UncontrolledTooltip target="#instagram-tooltip">
                   Follow us on Instagram
                 </UncontrolledTooltip>
-              </NavItem>
+              </NavItem>*/}
             </Nav>
           </Collapse>
         </Container>

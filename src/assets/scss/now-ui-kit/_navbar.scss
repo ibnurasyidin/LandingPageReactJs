@@ -9,7 +9,9 @@
         vertical-align: middle;
 
         &:not(.btn):not(.dropdown-item){
-            color: #000000;
+            //color: #000000;
+            color: #222222;
+
         }
     }
 
@@ -44,7 +46,9 @@
         }
 
         .nav-link:not(.btn){
-            text-transform: uppercase;
+            text-transform: capitalize;
+            font-family: "Nunito Sans";
+            font-weight: bold;
             font-size: $font-size-large;
             padding: $padding-base-vertical $padding-base-horizontal;
             line-height: $line-height-nav-link;
