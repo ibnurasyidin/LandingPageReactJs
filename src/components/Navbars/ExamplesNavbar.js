@@ -134,9 +134,11 @@ function ExamplesNavbar() {
                   Aplikasi Mobile
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
-                  Minta Meeting
+              <NavItem className="">
+                <span className="badge badge-primary mt-n2" style={{position:"absolute", fontsize:"8px", border: "8px", padding:"-5do"}}>Free</span>
+                <NavLink className=""
+                    href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                  <p>Minta Meeting</p>
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -152,7 +154,7 @@ function ExamplesNavbar() {
               <NavItem>
               <Button
                   className="btn-round mr-2"
-                  color="warning"
+                  color="success"
                   //href="/nucleo-icons"
                   size="sm"
                   //style="margin-top: 5px;"

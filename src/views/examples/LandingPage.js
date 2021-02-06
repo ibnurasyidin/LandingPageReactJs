@@ -51,7 +51,7 @@ function LandingPage() {
                                         Kirim Penawaran
                                     </Button>
                                     <Button
-                                        className="btn-default btn-outline-info mr-1 mt-5"
+                                        className="btn-default btn-outline-info mr-5 mt-5"
                                         color="info"
                                         href="/nucleo-icons"
                                         size="lg"
@@ -86,11 +86,11 @@ function LandingPage() {
 
                         <Row>
                             <Col className="ml-auto mr-auto text-center" md="8">
-                                <h2 className="title">Dengan Dukungan Multi-Platform</h2>
-                                <h5 className="description">
+                                <h2 className="title">Apa yang Anda Butuhkan?</h2>
+                                {/*<h5 className="description">
                                     Proses pembuatan cepat dan profesional, dengan memperhatikan penyusunan
                                     konten yang menarik dan berorientasi penjualan demi mendukung kesuksesan usaha Anda.
-                                </h5>
+                                </h5>*/}
 
                                 {/* align-items-start */}
                             </Col>
