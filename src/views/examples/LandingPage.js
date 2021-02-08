@@ -61,8 +61,6 @@ function LandingPage() {
                                     </Button>
 
                                 </Col>
-
-
                                 <Col md="4">
                                     <div
                                         className="image-container image-left category"
@@ -74,89 +72,67 @@ function LandingPage() {
 
                                 </Col>
                             </Row>
-
                         </Container>
-
                     </div>
                 </div>
-                <div className="separator separator-primary"></div>
-
-                <div className="section section-our-services">
-                    <Container>
-
-                        <Row>
-                            <Col className="ml-auto mr-auto text-center" md="8">
-                                <h2 className="title">Apa yang Anda Butuhkan?</h2>
-                                {/*<h5 className="description">
-                                    Proses pembuatan cepat dan profesional, dengan memperhatikan penyusunan
-                                    konten yang menarik dan berorientasi penjualan demi mendukung kesuksesan usaha Anda.
-                                </h5>*/}
-
-                                {/* align-items-start */}
-                            </Col>
-                        </Row>
-                        <div className="row text-center round-postion">
-                            <div className="col round border rounded image-raised">
+                <div className="d-flex justify-content-between">
+                    <Container className="justify-content-between">
+                        <div className="row d-flex align-items-center text-center">
+                            <div className="col round-postion ">
                                 <Row>
-                                    <Col className="mr-1 i">
+                                    <Col>
                                         <img
-
                                             alt="..."
                                             className="img-fluid content-center"
-                                            src={require("assets/img/android.png")}
-
+                                            src={require("assets/img/g920.png")}
                                             width="50" height="50"
                                         ></img>
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <Col className="text-margin">
+                                    <Col className=" font-weight-bold mt-4">
                                         Android
                                     </Col>
                                 </Row>
                             </div>
-                            <div className="col round margin-left border rounded border-primary">
+                            <div className="col">
                                 <Row>
                                     <Col>
                                         <img
-
                                             alt="..."
                                             className="img-fluid content-center"
-                                            src={require("assets/img/ios.png")}
-
+                                            src={require("assets/img/g2362.png")}
                                             width="50" height="50"
                                         ></img>
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <Col className="text-margin">
+                                    <Col className=" font-weight-bold mt-4">
                                         IOS
                                     </Col>
                                 </Row>
                             </div>
-                            <div className="col round margin-left border rounded border-primary">
+                            <div className="col">
                                 <div className="round-postion">
                                     <Row>
                                         <Col>
                                             <img
-
                                                 alt="..."
                                                 className="img-fluid  content-center "
-                                                src={require("assets/img/web.png")}
-
+                                                src={require("assets/img/g877.png")}
                                                 width="50" height="50"
                                             ></img>
                                         </Col>
                                     </Row>
                                     <Row>
-                                        <Col className="text-margin">
+                                        <Col className="font-weight-bold mt-4">
                                             WEB
                                         </Col>
                                     </Row>
                                 </div>
                             </div>
                         </div>
-                        <div className="text-center">
+                        <div className="">
                             <Button className="btn-round round-postion text-center" color="info" outline type="button"
                                     size="lg">
                                 Mulai
