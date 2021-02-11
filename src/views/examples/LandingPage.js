@@ -26,6 +26,7 @@ import SignUp from "../index-sections/SignUp";
 import Examples from "../index-sections/Examples";
 import Download from "../index-sections/Download";
 import MulaiBersama from "../index-sections/MulaiBersama";
+import OurClients from "../index-sections/OurClients";
 
 function LandingPage() {
     React.useEffect(() => {
@@ -90,10 +91,10 @@ function LandingPage() {
                         </Container>
                     </div>
                 </div>
-                <div className="pb-5">
+                <div className="">
                     <h2 className="title text-center">Apa yang Anda Butuhkan?</h2>
                 </div>
-                <div className="d-flex justify-content-between">
+                <div className="section d-flex justify-content-between">
                     <Container className="justify-content-center">
                         <div className="row d-flex align-items-baseline text-center">
                             <div className="col">
@@ -181,55 +182,7 @@ function LandingPage() {
                 </div>
                 <div className="main">
                     <MulaiBersama/>
-
-                </div>
-                <div className="section section-story-overview">
-                    <div className="section">
-                        <Container>
-                            <h2 className="title text-center">Butuh bantuan?</h2>
-                            <Row className="mt-xl-5">
-                                <Col className="zIndex ">
-                                    <div className="text_align-left pb-5">
-                                        <h5 className="description left">
-                                            Kami tahu mencoba dan menggunakan layanan baru itu<br/>
-                                            sangat mengkhawatirkan, itu sebabnya kami ingin
-                                            <br/>memberikan layanan terbaik 100% bebas resiko untuk kamu dan bisnis kamu
-                                        </h5>
-                                        <Button
-                                            className="btn-round mr-1"
-                                            color="info"
-                                            href="/nucleo-icons"
-                                            size="lg"
-                                            target="_blank"
-                                        >
-                                            Hubungi Kami
-                                        </Button>
-                                        <Button
-                                            className="btn-round mr-1"
-                                            color="info"
-                                            href="/nucleo-icons"
-                                            size="lg"
-                                            target="_blank"
-                                            outline
-                                        >
-                                            Atur Pertemuan
-                                        </Button>
-                                    </div>
-                                </Col>
-                                <Col>
-                                    <div
-                                        className="image-container-right"
-                                        style={{
-                                            backgroundImage:
-                                                "url(" + require("assets/img/help.png") + ")"
-                                        }}
-                                        width="50px"
-                                        height="50px"
-                                    ></div>
-                                </Col>
-                            </Row>
-                        </Container>
-                    </div>
+                    <OurClients/>
                 </div>
                 <div className="section section-story-overview">
                     <div className="section background">
