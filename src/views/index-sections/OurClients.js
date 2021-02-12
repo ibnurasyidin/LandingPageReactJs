@@ -15,14 +15,14 @@ function NucleoIcons() {
                            <img
                                alt="..."
                                className=" img-fluid"
-                               src={require("assets/img/ic_kwickbuck.png")}
+                               src={require("assets/img/ic_client_1.png")}
                            ></img>
                        </Col>
                        <Col>
                            <img
                                alt="..."
                                className=" img-fluid"
-                               src={require("assets/img/ic_galileo.png")}
+                               src={require("assets/img/ic_client_2.png")}
 
                            ></img>
                        </Col>
@@ -30,8 +30,7 @@ function NucleoIcons() {
                            <img
                                alt="..."
                                className=" img-fluid"
-                               src={require("assets/img/ic_itax.png")}
-                               width="150"
+                               src={require("assets/img/ic_client_3.png")}
 
                            ></img>
                        </Col>
@@ -39,8 +38,8 @@ function NucleoIcons() {
                            <img
                                alt="..."
                                className=" img-fluid"
-                               src={require("assets/img/ic_revyou.png")}
-                                width="150"
+                               src={require("assets/img/ic_client_4.png")}
+
                            ></img>
                        </Col>
 

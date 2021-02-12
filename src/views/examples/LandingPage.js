@@ -11,22 +11,10 @@ import {
 // core components
 import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
 import DefaultFooter from "../../components/Footers/DarkFooter";
-import Images from "../index-sections/Images";
-import BasicElements from "../index-sections/BasicElements";
-import Navbars from "../index-sections/Navbars";
-import Tabs from "../index-sections/Tabs";
-import Pagination from "../index-sections/Pagination";
-import Notifications from "../index-sections/Notifications";
-import Typography from "../index-sections/Typography";
-import Javascript from "../index-sections/Javascript";
-import Carousel from "../index-sections/Carousel";
-import NucleoIcons from "../index-sections/NucleoIcons";
-import CompleteExamples from "../index-sections/CompleteExamples";
-import SignUp from "../index-sections/SignUp";
-import Examples from "../index-sections/Examples";
-import Download from "../index-sections/Download";
 import MulaiBersama from "../index-sections/MulaiBersama";
 import OurClients from "../index-sections/OurClients";
+import OurSercives from "../index-sections/OurSercives";
+import MainSprint from "../index-sections/MainSprint";
 
 function LandingPage() {
     React.useEffect(() => {
@@ -41,146 +29,10 @@ function LandingPage() {
     return (
         <>
             <ExamplesNavbar/>
-
             <div className="wrapper">
-
-                <div className="separator separator-primary"></div>
-                {/*hide only small*/}
-                <div className="section section-story-overview d-none d-xl-block">
-                    <div className="section ">
-                        <Container>
-                            <Row>
-                                <Col md="8" className="zIndex">
-                                    <h2 className="title title-padding-top">Partner dan Layanan Informasi Teknologi
-                                        untuk Bisnis Kamu</h2>
-                                    <h5 className="description">
-                                        Dapatkan akses langsung ke tim kami sebagai partner<br/>
-                                        professional untuk kemajuan bisnismu
-                                    </h5>
-                                    <Button
-                                        className="btn-default mr-5 mt-5"
-                                        color="info"
-                                        href="/nucleo-icons"
-                                        size="lg"
-                                        target="_blank"
-                                    >
-                                        Kirim Penawaran
-                                    </Button>
-                                    <Button
-                                        className="btn-default btn-outline-info mr-5 mt-5"
-                                        color="info"
-                                        href="/nucleo-icons"
-                                        size="lg"
-                                        target="_blank"
-                                    >
-                                        Cek Harga
-                                    </Button>
-
-                                </Col>
-                                <Col md="4">
-                                    <div
-                                        className="image-container image-left category"
-                                        style={{
-                                            backgroundImage:
-                                                "url(" + require("assets/img/tajriy-work.png") + ")"
-                                        }}
-                                    ></div>
-
-                                </Col>
-                            </Row>
-                        </Container>
-                    </div>
-                </div>
-                <div className="">
-                    <h2 className="title text-center">Apa yang Anda Butuhkan?</h2>
-                </div>
-                <div className="section d-flex justify-content-between">
-                    <Container className="justify-content-center">
-                        <div className="row d-flex align-items-baseline text-center">
-                            <div className="col">
-                                <Row>
-                                    <Col>
-                                        <img
-                                            alt="..."
-                                            className="img-fluid content-center"
-                                            src={require("assets/img/g920.png")}
-                                            width="50" height="50"
-                                        ></img>
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col className=" font-weight-bold mt-4">
-                                        Android
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col className="font-weight-normal mt-4">
-                                        Kami bukan hanya penyedia
-                                        jasa pembuatan website biasa,
-                                        melainkan partner yang
-                                        membuka semua potensi online
-                                        bagi bisnis Anda.
-                                    </Col>
-                                </Row>
-                            </div>
-                            <div className="col">
-                                <Row>
-                                    <Col>
-                                        <img
-                                            alt="..."
-                                            className="img-fluid content-center"
-                                            src={require("assets/img/g2362.png")}
-                                            width="50" height="50"
-                                        ></img>
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col className=" font-weight-bold mt-4">
-                                        iOS
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col className="font-weight-normal mt-4">
-                                        Kami bukan hanya penyedia
-                                        jasa pembuatan website biasa,
-                                        melainkan partner yang
-                                        membuka semua potensi online
-                                        bagi bisnis Anda.
-                                    </Col>
-                                </Row>
-                            </div>
-                            <div className="col">
-                                <div className="round-postion">
-                                    <Row>
-                                        <Col>
-                                            <img
-                                                alt="..."
-                                                className="img-fluid  content-center "
-                                                src={require("assets/img/g877.png")}
-                                                width="50" height="65"
-                                            ></img>
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Col className="font-weight-bold mt-4">
-                                            WEB
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Col className="font-weight-normal mt-4">
-                                            Kami bukan hanya penyedia
-                                            jasa pembuatan website biasa,
-                                            melainkan partner yang
-                                            membuka semua potensi online
-                                            bagi bisnis Anda.
-                                        </Col>
-                                    </Row>
-                                </div>
-                            </div>
-                        </div>
-                    </Container>
-                </div>
                 <div className="main">
+                    <MainSprint/>
+                    <OurSercives/>
                     <MulaiBersama/>
                     <OurClients/>
                 </div>
@@ -234,7 +86,6 @@ function LandingPage() {
                         </Container>
                     </div>
                 </div>
-
                 <DefaultFooter/>
             </div>
         </>
