@@ -8,21 +8,13 @@ function NucleoIcons() {
     return (
         <>
             <div className="separator separator-primary"></div>
-            <div className="section section-story-overview">
-                <div className="section" style={{
-                    backgroundImage:
-                        "url(" + require("assets/img/tajriy-work.png") + ")",
-                    backgroundSize:"620px",
-                    marginRight:"-20px",
-                    backgroundPosition:"right",
-                    backgroundRepeat:"no-repeat",
-                    visibility:""
-                }}>
+            <div className="section section-story-overview no-mobile-background">
+                <div className="section bg-img">
                     <Container className="">
-                        <Row className="section bg-transparent">
-                            <Col md="8" className="col-lg-12 zIndex order-lg-0 order-1">
-                                <h2 className="title title-padding-top">Partner dan Layanan Informasi Teknologi
-                                    <br/>untuk Bisnis Kamu</h2>
+                        <Row className="bg-transparent">
+                            <Col className="col-lg-6 zIndex order-lg-0 order-1">
+                                <h2 className="title section mt-sm-5">Partner dan Layanan Teknologi Informasi
+                                    untuk Bisnis Kamu</h2>
                                 <h5 className="description">
                                     Dapatkan akses langsung ke tim kami sebagai partner<br/>
                                     professional untuk kemajuan bisnismu
@@ -44,14 +36,24 @@ function NucleoIcons() {
                                     Cek Harga
                                 </Button>
                             </Col>
+                            <Col className="col-lg-6">
+                                <div className="order-lg-1 order-0 d-flex justify-content-end mr-sm-n5 pl-lg-5 mt-n5 d-none d-xl-block">
+                                    <img
+                                        alt="..."
+                                        className=" img-fluid "
+                                        src={require("assets/img/tajriy-work.png")}
+
+                                    ></img>
+                                </div>
+                            </Col>
 
                             <div className="order-lg-1 order-0 d-flex justify-content-end mr-sm-n5 pl-lg-5 col-lg-7 d-none d-sm-block d-md-none">
-                                <img
+                                {/*<img
                                     alt="..."
                                     className=" img-fluid "
                                     src={require("assets/img/tajriy-work.png")}
                                     width="760"
-                                ></img>
+                                ></img>*/}
                             </div>
                            {/* <Col className="order-lg-1 order-0 d-flex justify-content-end mr-sm-n5 pl-lg-5 col-lg-7">
                                 <img
