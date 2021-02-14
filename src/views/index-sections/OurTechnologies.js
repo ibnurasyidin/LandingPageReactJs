@@ -45,7 +45,6 @@ function NucleoIcons() {
                                     <h5 className="description">
                                         Bersama tim profesional kami mengambil pandangan pragmatis
                                         untuk mengubah ide anda menjadi tindakan
-
                                     </h5>
                                 </Col>
                             </Row>

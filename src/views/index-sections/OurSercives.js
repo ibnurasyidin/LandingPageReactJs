@@ -13,7 +13,7 @@ function NucleoIcons() {
             <div className="section d-flex justify-content-between">
                 <Container className="justify-content-center">
                     <div className="row d-flex align-items-baseline text-center">
-                        <div className="col">
+                        <div className="col-sm-12 col-lg-4">
                             <Row>
                                 <Col>
                                     <img
@@ -25,12 +25,12 @@ function NucleoIcons() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col className=" font-weight-bold mt-4">
+                                <Col className="font-weight-bold mt-4">
                                     Android
                                 </Col>
                             </Row>
                             <Row>
-                                <Col className="font-weight-normal mt-4">
+                                <Col className="font-weight-normal mt-4 mx-2 mx-md-0 mx-sm-2 mx-lg-0">
                                     Kami bukan hanya penyedia
                                     jasa pembuatan website biasa,
                                     melainkan partner yang
@@ -39,7 +39,7 @@ function NucleoIcons() {
                                 </Col>
                             </Row>
                         </div>
-                        <div className="col">
+                        <div className="col-sm-12 col-lg-4 mt-5">
                             <Row>
                                 <Col>
                                     <img
@@ -51,12 +51,12 @@ function NucleoIcons() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col className=" font-weight-bold mt-4">
+                                <Col className="font-weight-bold mt-4">
                                     iOS
                                 </Col>
                             </Row>
                             <Row>
-                                <Col className="font-weight-normal mt-4">
+                                <Col className="font-weight-normal mt-4 mx-2 mx-md-0 mx-sm-2 mx-lg-0">
                                     Kami bukan hanya penyedia
                                     jasa pembuatan website biasa,
                                     melainkan partner yang
@@ -65,7 +65,7 @@ function NucleoIcons() {
                                 </Col>
                             </Row>
                         </div>
-                        <div className="col">
+                        <div className="col-lg-4">
                             <div className="round-postion">
                                 <Row>
                                     <Col>

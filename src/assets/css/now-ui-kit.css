@@ -4181,6 +4181,14 @@ img {
   color: #FFFFFF;
   text-decoration: none; }
 
+.ourclient {
+  place-content: center!important;
+}
+
+.section.bacground{
+
+}
+
 .section {
   padding: 70px 0;
   position: relative;
