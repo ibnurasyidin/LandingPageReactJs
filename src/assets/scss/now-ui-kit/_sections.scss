@@ -9,6 +9,10 @@
     &.background{
         background-color: #def6ffff;
     }
+  &.backgroundGradient{
+    background: rgb(0,183,255);
+    background: linear-gradient(21deg, rgba(0,183,255,1) 0%, rgba(83,147,255,1) 72%, rgba(66,129,235,1) 100%);
+  }
 }
 .section-navbars{
     padding-bottom: 0;
