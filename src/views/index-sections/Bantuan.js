@@ -4,10 +4,10 @@ import {Button, Container, Row, Col} from "reactstrap";
 
 // core components
 
-function OurTechnologies() {
+function Bantuan() {
     return (
         <>
-                    <div className="section section-story-overview">
+                    <div className="section section-story-overview pb-0">
                         <div className="section background">
                             <Container>
                                 <Row>
@@ -60,4 +60,4 @@ function OurTechnologies() {
     );
 }
 
-export default OurTechnologies;
+export default Bantuan;
