@@ -4,7 +4,7 @@ import {Button, Container, Row, Col} from "reactstrap";
 
 // core components
 
-function NucleoIcons() {
+function MulaiBersama() {
     return (
         <>
             <div className="section-nucleo-icons">
@@ -114,4 +114,4 @@ function NucleoIcons() {
     );
 }
 
-export default NucleoIcons;
+export default MulaiBersama;

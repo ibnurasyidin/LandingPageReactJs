@@ -7,54 +7,48 @@ import {Button, Container, Row, Col} from "reactstrap";
 function Bantuan() {
     return (
         <>
-                    <div className="section section-story-overview pb-0">
-                        <div className="section background">
-                            <Container>
-                                <Row>
-                                    <Col>
-                                        <div
-                                            className="image-container-help image-right"
-                                            style={{
-                                                backgroundImage:
-                                                    "url(" + require("assets/img/help.png") + ")"
-                                            }}
-                                            width="50px"
-                                            height="50px"
-                                        ></div>
-                                    </Col>
-                                    <Col className="align-section-2 zIndex">
-                                        <div className="align-right">
-                                            <h2 className="title title-padding-top">Butuh bantuan?</h2>
-                                            <h5 className="description right">
-                                                Kami tahu mencoba dan menggunakan layanan baru itu<br/>
-                                                sangat mengkhawatirkan, itu sebabnya kami ingin
-                                                <br/>memberikan layanan terbaik 100% bebas resiko untuk kamu dan bisnis kamu
-                                            </h5>
-                                            <Button
-                                                className="btn-round mr-1"
-                                                color="info"
-                                                href="/nucleo-icons"
-                                                size="lg"
-                                                target="_blank"
-                                            >
-                                                Hubungi Kami
-                                            </Button>
-                                            <Button
-                                                className="btn-round mr-1"
-                                                color="info"
-                                                href="/nucleo-icons"
-                                                size="lg"
-                                                target="_blank"
-                                                outline
-                                            >
-                                                Atur Pertemuan
-                                            </Button>
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </Container>
-                        </div>
-                    </div>
+
+                <div className="section bg-img background">
+                    <Container className="">
+                        <Row className="background">
+                            <Col className="col-lg-7 zIndex background order-lg-0 order-1">
+                                <h2 className="title mt-sm-5">Butuh Bantuan</h2>
+                                <h5 className="description">
+                                    Kami tahu mencoba dan menggunakan layanan baru itu<br/>
+                                    sangat mengkhawatirkan, itu sebabnya kami ingin
+                                    <br/>memberikan layanan terbaik 100% bebas resiko untuk kamu dan bisnis kamu
+                                </h5>
+                                <Button
+                                    className="btn-default mr-5 mt-5"
+                                    color="info"
+                                    href="/nucleo-icons"
+                                    size="lg"
+                                    target="_blank">
+                                    Hubungi Kami
+                                </Button>
+                            </Col>
+                            <Col className="col-lg-5">
+                                <div className="order-lg-1 order-0 d-flex justify-content-end mr-sm-n5 ">
+                                    <img
+                                        alt="..."
+                                        className=" img-fluid "
+                                        src={require("assets/img/help.png")}
+                                        width="400"
+                                    ></img>
+                                </div>
+                            </Col>
+
+                            <div className="order-lg-1 order-0 d-flex justify-content-end mr-sm-n5 pl-lg-5 col-lg-7 d-none d-sm-block d-md-none">
+                                {/*<img
+                                    alt="..."
+                                    className=" img-fluid "
+                                    src={require("assets/img/tajriy-work.png")}
+                                    width="760"
+                                ></img>*/}
+                            </div>
+                        </Row>
+                    </Container>
+                </div>
 
         </>
     );

@@ -17,6 +17,7 @@ import OurSercives from "../index-sections/OurSercives";
 import MainSprint from "../index-sections/MainSprint";
 import OurTechnologies from "../index-sections/OurTechnologies";
 import Bantuan from "../index-sections/Bantuan";
+import Footer from "../index-sections/Footer";
 
 function LandingPage() {
     React.useEffect(() => {
@@ -39,6 +40,7 @@ function LandingPage() {
                     <OurTechnologies/>
                     <OurClients/>
                     <Bantuan/>
+                    <Footer/>
                 </div>
 
                 <DefaultFooter/>

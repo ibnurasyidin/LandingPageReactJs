@@ -4,7 +4,7 @@ import {Button, Container, Row, Col} from "reactstrap";
 
 // core components
 
-function NucleoIcons() {
+function MainSprints() {
     return (
         <>
             <div className="separator separator-primary"></div>
@@ -79,4 +79,4 @@ function NucleoIcons() {
     );
 }
 
-export default NucleoIcons;
+export default MainSprints;
