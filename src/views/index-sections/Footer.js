@@ -23,7 +23,6 @@ function Footer() {
                                             </div>
                                             <h2 className="font-weight-bold ml-3">Tajriy</h2>
                                         </Row>
-
                                     <h5 className="mt-3">Kota Pekanbaru <br/>
                                         Indonesia, 551525</h5>
                                     <h5>Senin - Jum'at (08:00-17:00 WIB)</h5>
@@ -33,9 +32,9 @@ function Footer() {
                                 <div>
                                     <h5 className="text-white font-weight-bold">Tentang Kami</h5>
                                     <div className="">
-                                        <h5 className="text-white text-capitalize mt-4">Portofolio</h5>
-                                        <h5 className="text-white text-capitalize">Blog</h5>
-                                        <h5 className="text-capitalize text-white">Syarat dan Ketentuan</h5>
+                                        <a href="#">  <h5 className="text-white text-capitalize mt-4">Portofolio</h5></a>
+                                            <a href="#">  <h5 className="text-white text-capitalize">Blog</h5></a>
+                                                <a href="#">  <h5 className="text-capitalize text-white">Syarat dan Ketentuan</h5></a>
                                     </div>
                                 </div>
                             </Col>
@@ -43,17 +42,17 @@ function Footer() {
                                 <div>
                                     <h5 className="text-white font-weight-bold">Layanan</h5>
                                     <div className="text-justify">
-                                        <h5 className="text-white mt-4">Sistem Informasi</h5>
-                                        <h5 className="text-white">Aplikasi Mobile</h5>
-                                        <h5 className="text-white">ERP</h5>
-                                        <h5 className="text-white">Company Profile</h5>
+                                        <a href="#"> <h5 className="text-white mt-4">Sistem Informasi</h5></a>
+                                            <a href="#">  <h5 className="text-white">Aplikasi Mobile</h5></a>
+                                                <a href="#"><h5 className="text-white">ERP</h5></a>
+                                                    <a href="#">  <h5 className="text-white">Company Profile</h5></a>
                                     </div>
                                 </div>
                             </Col>
                             <Col className="text-left">
                                 <div>
                                     <h5 className="text-white font-weight-bold">Marketing Info</h5>
-                                    <h5 className="text-white mt-4">081314721408 (Tri)</h5>
+                                      <h5 className="text-white mt-4">081314721408 (Tri)</h5>
                                     <h5 className="text-white">081264875430 (Aufa)</h5>
                                     <h5 className="text-white">081314721408 (Tama)</h5>
                                     <h5 className="text-white">081314721408 (Naldi)</h5>
