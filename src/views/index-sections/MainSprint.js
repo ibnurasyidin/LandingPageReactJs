@@ -12,7 +12,7 @@ function MainSprints() {
                 <div className="section bg-img">
                     <Container className="">
                         <Row className="bg-transparent">
-                            <Col className="col-lg-6 zIndex order-lg-0 order-1">
+                            <Col className="col-lg-6 col-md-6 zIndex order-lg-0 order-md-0 order-1">
                                 <h2 className="title section mt-sm-5">Partner dan Layanan Teknologi Informasi
                                     untuk Bisnis Kamu</h2>
                                 <h5 className="description">
@@ -36,7 +36,7 @@ function MainSprints() {
                                     Cek Harga
                                 </Button>
                             </Col>
-                            <Col className="col-lg-6">
+                            <Col className="col-lg-6 col-md-6">
                                 <div className="order-lg-1 order-0 d-flex justify-content-end mr-sm-n5 pl-lg-5 mt-n5 d-none d-xl-block">
                                     <img
                                         alt="..."
@@ -47,7 +47,7 @@ function MainSprints() {
                                 </div>
                             </Col>
 
-                            <div className="order-lg-1 order-0 d-flex justify-content-end mr-sm-n5 pl-lg-5 col-lg-7 d-none d-sm-block d-md-none">
+                            <div className="order-lg-1 order-0 d-flex justify-content-end mr-sm-n5 pl-lg-5 col-lg-7 col-md-7 d-none d-sm-block d-md-none">
                                 {/*<img
                                     alt="..."
                                     className=" img-fluid "
