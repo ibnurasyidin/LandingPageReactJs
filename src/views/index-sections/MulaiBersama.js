@@ -11,9 +11,9 @@ function MulaiBersama() {
                 <Container>
                     <h2 className=" title text-center">Mulai bersama kami</h2>
                     <Row className={"mx-2 mx-md-0 mx-sm-2 mx-lg-0"}>
-                        <Col lg={5} md={5} sm="12" className="order-lg-0 order-1 section">
+                        <Col lg={5} md={6} sm="12" className="order-lg-0 order-1 order-md-0 section">
                             <Row>
-                                <Col md={2} className="align-self-center">
+                                <Col md={3} className="align-self-center order-md-0 order-lg-1">
                                     <img
                                         alt="..."
                                         className=" img-fluid "
@@ -21,9 +21,9 @@ function MulaiBersama() {
                                         width="60" height="60"
                                     ></img>
                                 </Col>
-                                <Col>
-                                    <h4 className="title">Temukan ide</h4>
-                                    <h5 className="description">
+                                <Col className="order-md-1 order-lg-1">
+                                    <h4 className="title text-md-left">Temukan ide</h4>
+                                    <h5 className="description text-md-left">
                                         Bangun aplikasi dengan inovasi fitur yang menarik yang
                                         bisa membantu bisnis kamu lebih baik melayani pelanggan.
                                         Mulai buat ide anda menjadi kenyataan
@@ -32,7 +32,7 @@ function MulaiBersama() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col md={2} className="align-self-center">
+                                <Col md={3} className="align-self-center">
                                     <img
                                         alt="..."
                                         className=" img-fluidß"
@@ -41,8 +41,8 @@ function MulaiBersama() {
                                     ></img>
                                 </Col>
                                 <Col>
-                                    <h4 className="title">Eksekusi</h4>
-                                    <h5 className="description">
+                                    <h4 className="title text-md-left">Eksekusi</h4>
+                                    <h5 className="description text-md-left">
                                         Bersama tim profesional kami mengambil pandangan pragmatis
                                         untuk mengubah ide anda menjadi tindakan
 
@@ -50,10 +50,10 @@ function MulaiBersama() {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col sm={12} lg={7} md={7}  className={"align-self-center order-lg-1 order-0 section"}>
+                        <Col sm={12} lg={7} md={6}  className={"align-self-center d-flex justify-content-end order-md-1 order-lg-1 order-0 section"}>
                             <img
                                 alt="..."
-                                className=" img-fluidß float-right"
+                                className=" img-fluid float-right"
                                 src={require("assets/img/section_1.png")}
                                 width="460"
 
@@ -63,7 +63,7 @@ function MulaiBersama() {
                     </Row>
 
                     <Row className={"mx-2 mx-md-0 mx-sm-2 mx-lg-0"}>
-                        <Col lg={7} md={7} sm={12} className={"align-self-center"}>
+                        <Col lg={7} md={6} sm={12} className="align-self-center">
                                 <img
                                     alt="..."
                                     className=" img-fluidß float-left"
@@ -71,19 +71,19 @@ function MulaiBersama() {
                                     width="460"
                                 ></img>
                         </Col>
-                        <Col lg={5} md={5} sm="12">
+                        <Col lg={5} md={6} sm={12} className="">
                             <Row>
-                                <Col md={2} className="align-self-center">
+                                <Col md={3} className="align-self-center d-flex justify-content-end section order-md-1">
                                     <img
                                         alt="..."
-                                        className=" img-fluid"
+                                        className="img-fluid"
                                         src={require("assets/img/ic_laporan.png")}
                                         width="60" height="60"
                                     ></img>
                                 </Col>
-                                <Col>
-                                    <h4 className="title">Pantau Progres</h4>
-                                    <h5 className="description">
+                                <Col className="order-md-0 ">
+                                    <h4 className="title text-md-left">Pantau Progres</h4>
+                                    <h5 className="description text-sm-left">
                                         Pastikan semua sesuai dengan keinginan anda. Kami memberikan aksi nyata
                                         langsung yang berorientasi pada hasil dan kepuasan pelanggan.
 
@@ -91,17 +91,17 @@ function MulaiBersama() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col md={2} className="align-self-center">
+                                <Col md={4} className="align-self-center d-flex justify-content-end order-md-1">
                                     <img
                                         alt="..."
-                                        className=" img-fluid"
+                                        className="img-fluid"
                                         src={require("assets/img/ic_grafik.png")}
                                         width="60" height="65"
                                     ></img>
                                 </Col>
-                                <Col>
-                                    <h4 className="title">Jangkau lebih luas</h4>
-                                    <h5 className="description">
+                                <Col className="order-md-0">
+                                    <h4 className="title text-md-left">Jangkau lebih luas</h4>
+                                    <h5 className="description text-md-left">
                                         Kami membantu Anda mencapai pertumbuhan yang berkelanjutan & menguntungkan.
                                     </h5>
                                 </Col>
