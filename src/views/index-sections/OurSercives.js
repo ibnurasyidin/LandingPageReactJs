@@ -7,9 +7,7 @@ import {Button, Container, Row, Col} from "reactstrap";
 function NucleoIcons() {
     return (
         <>
-            <div className="">
-                <h2 className="title text-center">Apa yang Anda Butuhkan?</h2>
-            </div>
+            <h2 className="title mt-5 text-center">Apa yang Anda Butuhkan?</h2>
             <div className="section d-flex justify-content-between">
                 <Container className="justify-content-center">
                     <div className="row d-flex align-items-baseline text-center">

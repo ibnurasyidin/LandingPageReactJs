@@ -11,8 +11,19 @@ function Bantuan() {
             <div className="section bg-img background">
                 <Container className="">
                     <Row className="background">
+                        <Col sm={12} lg={5} md={5} className="order-lg-1 order-md-1 order-sm-0">
+                            <div
+                                className="order-lg-1 order-md-1 order-sm-0 d-flex align-items-center justify-content-end mr-sm-n5 mt-md-5">
+                                <img
+                                    alt="..."
+                                    className="img-fluid"
+                                    src={require("assets/img/help.png")}
+                                    width="400"
+                                ></img>
+                            </div>
+                        </Col>
                         <Col sm={12} md={7} lg={7} className="order-lg-0 order-md-0 order-sm-1 mx-sm-2 mx-md-0 mx-lg-0">
-                            <h2 className="title mt-sm-5">Butuh Bantuan</h2>
+                            <h2 className="title mt-5">Butuh Bantuan</h2>
                             <h5 className="description">
                                 Kami tahu mencoba dan menggunakan layanan baru itu
                                 sangat mengkhawatirkan, itu sebabnya kami ingin
@@ -27,17 +38,7 @@ function Bantuan() {
                                 Hubungi Kami
                             </Button>
                         </Col>
-                        <Col sm={12} lg={5} md={5} className="order-sm-0">
-                            <div
-                                className="order-lg-1 order-md-1 order-sm-0 d-flex align-items-center justify-content-end mr-sm-n5 mt-md-5">
-                                <img
-                                    alt="..."
-                                    className="img-fluid"
-                                    src={require("assets/img/help.png")}
-                                    width="400"
-                                ></img>
-                            </div>
-                        </Col>
+
                     </Row>
                 </Container>
             </div>
