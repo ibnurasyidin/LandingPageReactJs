@@ -10,8 +10,8 @@ function Footer() {
             <div className=" section-story-overview bg-dark">
                 <Container className="">
                     <div className="">
-                        <Row className="section-well mt-5 bg-dark col-lg-12 ">
-                            <Col className="col-lg-4 pr-5">
+                        <Row className="section-well mt-5 bg-dark col-lg-12 col-sm-12">
+                            <Col className="col-lg-5 col-md-5 col-sm-12">
                                 <div className="text-white">
                                         <Row>
                                             <div>
@@ -21,14 +21,17 @@ function Footer() {
                                                 width="60"
                                             ></img>
                                             </div>
+                                            <div>
                                             <h2 className="font-weight-bold ml-3">Tajriy</h2>
+                                            </div>
+
                                         </Row>
                                     <h5 className="mt-3">Kota Pekanbaru <br/>
                                         Indonesia, 551525</h5>
                                     <h5>Senin - Jum'at (08:00-17:00 WIB)</h5>
                                 </div>
                             </Col>
-                            <Col className=" text-left">
+                            <Col className="col-sm-12 text-left">
                                 <div>
                                     <h5 className="text-white font-weight-bold">Tentang Kami</h5>
                                     <div className="">
@@ -38,7 +41,7 @@ function Footer() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col className="text-left ml-5">
+                            <Col className="text-left col-sm-12">
                                 <div>
                                     <h5 className="text-white font-weight-bold">Layanan</h5>
                                     <div className="text-justify">

@@ -82,8 +82,8 @@ function MulaiBersama() {
                                     ></img>
                                 </Col>
                                 <Col className="order-md-0 ">
-                                    <h4 className="title text-md-left">Pantau Progres</h4>
-                                    <h5 className="description text-sm-left">
+                                    <h4 className="title text-md-left text-sm-center">Pantau Progres</h4>
+                                    <h5 className="description text-md-left text-sm-center">
                                         Pastikan semua sesuai dengan keinginan anda. Kami memberikan aksi nyata
                                         langsung yang berorientasi pada hasil dan kepuasan pelanggan.
 
