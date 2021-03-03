@@ -10,8 +10,8 @@ function Footer() {
             <div className=" section-story-overview bg-dark">
                 <Container className="">
                     <div className="">
-                        <Row className="section-well mt-5 bg-dark col-lg-12 col-sm-12">
-                            <Col className="col-lg-5 col-md-5 col-sm-12">
+                        <Row className="section-well mt-5 bg-dark col-sm-12">
+                            <Col lg={3} md={12} sm={12} className=" mb-md-5">
                                 <div className="text-white">
                                         <Row>
                                             <div>
@@ -31,9 +31,10 @@ function Footer() {
                                     <h5>Senin - Jum'at (08:00-17:00 WIB)</h5>
                                 </div>
                             </Col>
-                            <Col className="col-sm-12 text-left">
+
+                            <Col lg={3} md={3} sm={12} className="text-left">
                                 <div>
-                                    <h5 className="text-white font-weight-bold">Tentang Kami</h5>
+                                    <h5 className="text-white font-weight-bold pt-sm-5">Tentang Kami</h5>
                                     <div className="">
                                         <a href="#">  <h5 className="text-white text-capitalize mt-4">Portofolio</h5></a>
                                             <a href="#">  <h5 className="text-white text-capitalize">Blog</h5></a>
@@ -41,7 +42,7 @@ function Footer() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col className="text-left col-sm-12">
+                            <Col lg={3} md={3} className="text-left col-sm-12">
                                 <div>
                                     <h5 className="text-white font-weight-bold">Layanan</h5>
                                     <div className="text-justify">
@@ -52,7 +53,7 @@ function Footer() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col className="text-left">
+                            <Col lg={3} md={3} className="text-left">
                                 <div>
                                     <h5 className="text-white font-weight-bold">Marketing Info</h5>
                                       <h5 className="text-white mt-4">081314721408 (Tri)</h5>
@@ -61,6 +62,7 @@ function Footer() {
                                     <h5 className="text-white">081314721408 (Naldi)</h5>
                                 </div>
                             </Col>
+
                         </Row>
                     </div>
                 </Container>
