@@ -12,16 +12,17 @@ function MainSprints() {
                 <div className=" bg-img">
                     <Container className="">
                         <Row className="bg-transparent">
-                            <Col sm={12} md={12} lg={6} className="zIndex order-lg-0 order-md-1 order-1">
+                            <Col sm={12} md={6} lg={6} className="zIndex order-lg-0 order-md-0 order-1">
                                 <h2 className="title pt-lg-5 mt-sm-5">Partner dan Layanan Teknologi Informasi
                                     untuk Bisnis Kamu</h2>
                                 <h5 className="description">
                                     Dapatkan akses langsung ke tim kami sebagai partner<br/>
                                     professional untuk kemajuan bisnismu
                                 </h5>
-                                <Row className="px-2">
+                                <Row className=" mt-5">
+                                    <Col>
                                 <Button
-                                    className="btn-default mr-5 mt-5"
+                                    className="btn-default mr-5 "
                                     color="info"
                                     href="/nucleo-icons"
                                     size="lg"
@@ -29,17 +30,18 @@ function MainSprints() {
                                     Kirim Penawaran
                                 </Button>
                                 <Button
-                                    className="btn-default btn-outline-info mr-5 mt-5"
+                                    className="btn-default btn-outline-info  "
                                     color="info"
                                     href="/nucleo-icons"
                                     size="lg"
                                     target="_blank">
                                     Cek Harga
                                 </Button>
+                                    </Col>
                                 </Row>
                             </Col>
-                            <Col sm={12} md={12} lg={6}>
-                                <div className="order-lg-1 order-0 order-md-0 d-flex section justify-content-end mr-sm-n5 pl-lg-5 mt-n5 d-none d-xl-block">
+                            <Col sm={12} md={6} lg={6}>
+                                <div className="order-lg-1 order-0 order-md-1 d-flex section justify-content-end mr-sm-n5 pl-lg-5 mt-n5 d-none d-xl-block">
                                     <img
                                         alt="..."
                                         className=" img-fluid "
