@@ -34,7 +34,7 @@ function Footer() {
 
                             <Col lg={3} md={3} sm={12} className="text-left">
                                 <div>
-                                    <h5 className="text-white font-weight-bold pt-sm-5">Tentang Kami</h5>
+                                    <h5 className="text-white font-weight-bold ">Tentang Kami</h5>
                                     <div className="">
                                         <a href="#">  <h5 className="text-white text-capitalize mt-4">Portofolio</h5></a>
                                             <a href="#">  <h5 className="text-white text-capitalize">Blog</h5></a>
