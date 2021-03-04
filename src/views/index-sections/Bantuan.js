@@ -32,7 +32,7 @@ function Bantuan() {
                             <Button
                                 className="btn-default  mt-5"
                                 color="info"
-                                href="/nucleo-icons"
+                                href="https://wa.me/6281314721408?text=Assalamualaikum%20saya%20ada%20kendala%20pada%20...%20"
                                 size="lg"
                                 target="_blank">
                                 Hubungi Kami
