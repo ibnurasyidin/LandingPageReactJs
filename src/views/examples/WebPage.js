@@ -11,7 +11,7 @@ import {
     Container,
     Row,
     Col,
-    UncontrolledTooltip
+    UncontrolledTooltip,
 } from "reactstrap";
 
 // core components
@@ -26,28 +26,30 @@ import OurClients from "../index-sections/OurClients";
 import Bantuan from "../index-sections/Bantuan";
 import Footer from "../index-sections/Footer";
 import MainSprintWeb from "../index-sections/MainSprintWeb";
+import MainWeb from "../index-sections/MainWeb";
+import WhyUs from "../index-sections/WhyUs";
 
-function webPage() {
+function WebPage() {
     const [pills, setPills] = React.useState("2");
     React.useEffect(() => {
         document.body.classList.add("web-page");
         document.body.classList.add("sidebar-collapse");
         document.documentElement.classList.remove("nav-open");
+        window.scrollTo(0, 0);
+        document.body.scrollTop = 0;
         return function cleanup() {
             document.body.classList.remove("web-page");
             document.body.classList.remove("sidebar-collapse");
         };
-    });
+    }, []);
     return (
         <>
             <ExamplesNavbar/>
             <div className="wrapper">
                 <div className="main">
+                    <MainWeb/>
+                    <WhyUs/>
                     <MainSprintWeb/>
-                    <OurSercives/>
-                    <MulaiBersama/>
-                    <OurTechnologies/>
-                    <OurClients/>
                     <Bantuan/>
                     <Footer/>
                 </div>

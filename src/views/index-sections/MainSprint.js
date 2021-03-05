@@ -27,9 +27,9 @@ function MainSprints() {
                                             className="btn-default mr-5 "
                                             color="info"
                                             //to="/web-page"
-                                            //tag={Link}
+                                            tag={Link}
                                             //href="examples/WebPage.html"
-                                            href="https://wa.me/6281314721408?text=Assalamualaikum%20saya%20tertarik%20dengan%20layanan%20anda%20"
+                                               href="https://wa.me/6281314721408?text=Assalamualaikum%20saya%20tertarik%20dengan%20layanan%20anda%20"
                                             size="lg"
                                             target="_blank">
                                             Kirim Penawaran
