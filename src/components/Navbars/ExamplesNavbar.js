@@ -58,8 +58,7 @@ function ExamplesNavbar() {
                     ></img>
                     </NavbarBrand>
             <NavbarBrand
-              href="#"
-              target="_blank"
+              href="index"
               style={{fontFamily:"emoji !important"}}
             >
              Tajriy
@@ -85,12 +84,12 @@ function ExamplesNavbar() {
           >
             <Nav navbar>
               <NavItem>
-                <NavLink to="/index" tag={Link}>
+                <NavLink to="/web-page" href="examples/WebPage.html" tag={Link}>
                  Website
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                <NavLink to="/ProfilePage" tag={Link}>
                   Aplikasi Mobile
                 </NavLink>
               </NavItem>

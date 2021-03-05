@@ -26,7 +26,7 @@ If you’re working on one or more projects for a client, you can share with you
 If the End Product you (or the team you’ve been part of) have created for the client is a product offered for sale, and the Nucleo icons contribute to the core value of the product being sold/shared, your client will have to buy an Extended License.
 
 ## End Product Users
-If you're using Nucleo icons in apps, installable items or online products/services, there's no limit to the number of users/customers that can use the product you're developing (e.g. if you're developing a web application and you're using Nucleo icons throughout the design, there's no limit to the number of active users of the application).
+If you're using Nucleo icons in apps, installable items or online products/services, there's no limit to the number of users/customers that can use the product you're developing (e.g. if you're developing a webPage application and you're using Nucleo icons throughout the design, there's no limit to the number of active users of the application).
 
 ## Templates, Themes, UI Kits & Plugins
 If you’re using Nucleo icons in templates, themes or plugins offered for sale, or for free, (e.g. UI kits, Wordpress Themes, HTML/CSS Templates), you can include up to 100 icons in the downloadable source files. This limitation applies to the icon fonts as well.
