@@ -18,6 +18,7 @@ import MainSprint from "../index-sections/MainSprint";
 import OurTechnologies from "../index-sections/OurTechnologies";
 import Bantuan from "../index-sections/Bantuan";
 import Footer from "../index-sections/Footer";
+import DarkFooter from "../../components/Footers/DarkFooter";
 
 function LandingPage() {
     React.useEffect(() => {
@@ -43,7 +44,7 @@ function LandingPage() {
                     <Footer/>
                 </div>
 
-                <DefaultFooter/>
+                <DarkFooter/>
             </div>
         </>
     );

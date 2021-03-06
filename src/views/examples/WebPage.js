@@ -28,6 +28,8 @@ import Footer from "../index-sections/Footer";
 import MainSprintWeb from "../index-sections/MainSprintWeb";
 import MainWeb from "../index-sections/MainWeb";
 import WhyUs from "../index-sections/WhyUs";
+import PaketWeb from "../index-sections/PaketWeb";
+import DarkFooter from "../../components/Footers/DarkFooter";
 
 function WebPage() {
     const [pills, setPills] = React.useState("2");
@@ -49,12 +51,13 @@ function WebPage() {
                 <div className="main">
                     <MainWeb/>
                     <WhyUs/>
-                    <MainSprintWeb/>
+                    <PaketWeb/>
+                   {/* <MainSprintWeb/>*/}
                     <Bantuan/>
                     <Footer/>
                 </div>
 
-                <DefaultFooter/>
+                <DarkFooter/>
             </div>
         </>
     );
