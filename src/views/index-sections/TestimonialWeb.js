@@ -8,10 +8,11 @@ import {Link} from "react-router-dom";
 function NucleoIcons() {
     return (
         <>
-            <h2 className="title mt-5 text-center">Portofolio</h2>
-            <div className="d-flex justify-content-between">
+
+            <div className="section d-flex justify-content-between">
                 <Container className="justify-content-center">
-                    <div className="row d-flex align-items-baseline">
+                    <h2 className="title text-center">Portofolio</h2>
+                    <div className="mt-5 row d-flex align-items-baseline">
                         <div className="col-sm-12 col-lg-4 p-lg-5">
                             <div className=" bg-white rounded">
                                 <div className=" hero-images-container-1">
