@@ -81,6 +81,15 @@ h5, .h5 {
         font-weight: 400;
     }
 }
+h5x, .h5x {
+    font-size: 10pt;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+
+    &.category{
+        font-weight: 400;
+    }
+}
 h6, .h6{
     font-size: $font-size-h6;
     font-weight: $font-weight-bold;
@@ -90,6 +99,11 @@ p{
     line-height: 1.61em;
     font-weight: 300;
     font-size: 1.2em;
+}
+px{
+    line-height: 1.61em;
+    font-weight: 300;
+    font-size: 1em;
 }
 
 .title{

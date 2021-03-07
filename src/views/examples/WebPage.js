@@ -30,6 +30,7 @@ import MainWeb from "../index-sections/MainWeb";
 import WhyUs from "../index-sections/WhyUs";
 import PaketWeb from "../index-sections/PaketWeb";
 import DarkFooter from "../../components/Footers/DarkFooter";
+import TestimonialWeb from "../index-sections/TestimonialWeb";
 
 function WebPage() {
     const [pills, setPills] = React.useState("2");
@@ -53,6 +54,7 @@ function WebPage() {
                     <WhyUs/>
                     <PaketWeb/>
                    {/* <MainSprintWeb/>*/}
+                   <TestimonialWeb/>
                     <Bantuan/>
                     <Footer/>
                 </div>

@@ -17,7 +17,7 @@ function NucleoIcons() {
                                     <img
                                         alt="..."
                                         className="img-fluid content-center"
-                                        src={require("assets/img/g920.png")}
+                                        src={require("assets/img/ic-quality.png")}
                                         width="50" height="50"
                                     ></img>
                                 </Col>
@@ -43,7 +43,7 @@ function NucleoIcons() {
                                     <img
                                         alt="..."
                                         className="img-fluid content-center"
-                                        src={require("assets/img/g2362.png")}
+                                        src={require("assets/img/ic-server.png")}
                                         width="50" height="50"
                                     ></img>
                                 </Col>
@@ -69,7 +69,7 @@ function NucleoIcons() {
                                 <img
                                     alt="..."
                                     className="img-fluid content-center"
-                                    src={require("assets/img/g2362.png")}
+                                    src={require("assets/img/ic-support.png")}
                                     width="50" height="50"
                                 ></img>
                             </Col>
@@ -95,7 +95,7 @@ function NucleoIcons() {
                                     <img
                                         alt="..."
                                         className="img-fluid content-center"
-                                        src={require("assets/img/g2362.png")}
+                                        src={require("assets/img/ic-responsive.png")}
                                         width="50" height="50"
                                     ></img>
                                 </Col>
