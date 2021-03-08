@@ -32,6 +32,7 @@ import PaketWeb from "../index-sections/PaketWeb";
 import DarkFooter from "../../components/Footers/DarkFooter";
 import TestimonialWeb from "../index-sections/TestimonialWeb";
 import MainMobile from "../index-sections/MainMobile";
+import AndroidIos from "../index-sections/AndroidIos";
 
 function MobilePage() {
     const [pills, setPills] = React.useState("2");
@@ -51,11 +52,12 @@ function MobilePage() {
             <ExamplesNavbar/>
             <div className="wrapper">
                 <div className="main">
-                   <MainMobile/>
-                    <WhyUs/>
-                    <PaketWeb/>
+                    <MainMobile/>
+                    <AndroidIos/>
+                   {/* <WhyUs/>*/}
+                 {/*   <PaketWeb/>*/}
                    {/* <MainSprintWeb/>*/}
-                   <TestimonialWeb/>
+                {/*   <TestimonialWeb/>*/}
                     <Bantuan/>
                     <Footer/>
                 </div>
