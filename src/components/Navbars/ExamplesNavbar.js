@@ -89,7 +89,7 @@ function ExamplesNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/ProfilePage" tag={Link}>
+                <NavLink to="/mobile-page" href="examples/MobilePage.html" tag={Link}>
                   Aplikasi Mobile
                 </NavLink>
               </NavItem>
