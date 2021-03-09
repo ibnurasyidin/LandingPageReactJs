@@ -59,7 +59,6 @@ function Footer() {
                                       <h5 className="text-white mt-4">081314721408 (Tri)</h5>
                                     <h5 className="text-white">081264875430 (Aufa)</h5>
                                     <h5 className="text-white">081314721408 (Tama)</h5>
-                                    <h5 className="text-white">081314721408 (Naldi)</h5>
                                 </div>
                             </Col>
 
