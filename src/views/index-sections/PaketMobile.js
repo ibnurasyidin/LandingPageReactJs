@@ -11,10 +11,11 @@ function PaketMobile() {
             <div className="section">
                 <h2 className="title text-center">Sesuaikan dengan model bisnismu!</h2>
                     <Container>
-                                <h5 className="text-center">Harga pembuatan/pengembangan aplikasi android maupun iOS sangatlah berbeda tiap proyeknya
+                        <div className="bg-warning-a rounded-a">
+                            <p className="text-center p-3"><mark className="font-weight-bold bg-transparent">Harga pembuatan/pengembangan aplikasi android maupun iOS sangatlah berbeda tiap proyeknya</mark>
                                     tergantung pada spesifikasi (fungsi) aplikasi itu sendiri. Kami memberikan kisaran harga sebagai
                                     bayang atau perkiraan saja sebelu, memberikan penawaran terperinci kepada Anda. Jadi anggaplah
-                                    ini hanya panduan saja.</h5>
+                                    ini hanya panduan saja.</p></div>
                         <div className="section">
                     <Row className="shadow  mx-auto w-75">
                         <table className="table table-borderless border-0 ">
@@ -79,7 +80,7 @@ function PaketMobile() {
                                         href="https://wa.me/6281314721408?text=Assalamualaikum%20saya%20tertarik%20dengan%20layanan%20anda%20"
                                         size="md"
                                         target="_blank">
-                                        Kirim Penawaran
+                                        Konsultasi
                                     </Button>
                                     </div>
                                 </td>
@@ -87,41 +88,6 @@ function PaketMobile() {
                             </tr>
                             </tbody>
                         </table>
-                     {/*   <Col lg={4}className="">
-                            <h5 className="title ">Model</h5>
-                            <div className="pt-3">
-                            <h5>WebView</h5>
-                            <h5>Toko Online/Marketplace</h5>
-                            <h5>Chat/ Travel & Local</h5>
-                            <h5>Tool System</h5>
-                            <h5>Finance</h5>
-                            <h5>Health / Fitness / Medical</h5>
-                            </div>
-                        </Col>
-                        <Col lg={4}>
-                            <h5 className="title text-center">Android</h5>
-                            <div className="text-center pt-3">
-                            <h5>1-25Jt</h5>
-                            <h5>1-25Jt</h5>
-                            <h5>1-25Jt</h5>
-                            <h5>1-25Jt</h5>
-                            <h5>1-25Jt</h5>
-                            <h5>1-25Jt</h5>
-                            </div>
-                        </Col>
-                        <Col lg={4}>
-                            <h5 className="title text-center">iOS</h5>
-                            <div className="text-center pt-3">
-                            <h5>1-25Jt</h5>
-                            <h5>1-25Jt</h5>
-                            <h5>1-25Jt</h5>
-                            <h5>1-25Jt</h5>
-                            <h5>1-25Jt</h5>
-                            <h5>1-25Jt</h5>
-
-                            </div>
-
-                        </Col>*/}
                     </Row>
 
                         </div>

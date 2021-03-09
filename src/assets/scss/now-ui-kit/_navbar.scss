@@ -199,7 +199,14 @@
 .bg-warning{
     background-color: $warning-color !important;
 }
+.bg-warning-a{
+    background-color: #FEE4C4 !important;
+}
 
 .bg-white{
     background-color: $white-color !important;
+}
+
+.rounded-a{
+    border-radius: 0.7rem;
 }
