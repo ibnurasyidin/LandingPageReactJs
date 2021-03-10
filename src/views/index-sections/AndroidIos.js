@@ -11,9 +11,9 @@ function AndroidIos() {
             <div className="section bg-img">
                 <Container className="">
                     <Row className="">
-                        <Col sm={12} lg={5} md={5} className="order-lg-1 order-md-1 order-sm-0">
+                        <Col sm={12} lg={6} md={5} className="order-lg-1 order-md-1 order-sm-0">
                             <div
-                                className="order-lg-1 order-md-1 order-sm-0 d-flex  justify-content-center">
+                                className="order-lg-1 order-md-1 order-sm-0 d-flex align-self-center justify-content-center">
                                 <img
                                     alt="..."
                                     className="img-fluid"
@@ -22,7 +22,7 @@ function AndroidIos() {
                                 ></img>
                             </div>
                         </Col>
-                        <Col sm={12} md={7} lg={7} className="order-lg-0 order-md-0   align-self-center order-sm-1 mx-sm-2 mx-md-0 mx-lg-0">
+                        <Col sm={12} md={7} lg={6} className="order-lg-0 order-md-0   align-self-center order-sm-1 mx-sm-2 mx-md-0 mx-lg-0">
                             <h2 className="title ">Jasa Pembuatan Aplikasi Android</h2>
                             <h5 className="">
                                 Saat ini, banyak perusahaan startup maupun UKM yang
@@ -34,9 +34,9 @@ function AndroidIos() {
 
                     </Row>
                     <Row className="section">
-                        <Col sm={12} lg={5} md={5} className="order-lg-0 order-md-0 order-sm-1">
+                        <Col sm={12} lg={6} md={5} className="order-lg-0 order-md-0 order-sm-1">
                             <div
-                                className="order-lg-1 order-md-1 order-sm-0 d-flex  justify-content-center">
+                                className="order-lg-1 order-md-1 order-sm-0 d-flex align-self-center justify-content-center">
                                 <img
                                     alt="..."
                                     className="img-fluid"
@@ -45,9 +45,9 @@ function AndroidIos() {
                                 ></img>
                             </div>
                         </Col>
-                        <Col sm={12} md={7} lg={7} className="order-lg-1 order-md-1   align-self-center order-sm-1 mx-sm-2 mx-md-0 mx-lg-0">
-                            <h2 className="title ">Jasa Pembuatan Aplikasi iOS</h2>
-                            <h5 className="">
+                        <Col sm={12} md={7} lg={6} className="order-lg-1 order-md-1   align-self-center order-sm-1 mx-sm-2 mx-md-0 mx-lg-0">
+                            <h2 className="title text-right">Jasa Pembuatan Aplikasi iOS</h2>
+                            <h5 className="text-right">
                                 Selain Android dikembangkan oleh Google,
                                 aplikasi iOS untuk iPhone dan iPad ciptaan perusahaan Apple
                                 pun menjadi salah satu sistem operasi smartphone
