@@ -18,7 +18,7 @@ function ExamplesNavbar() {
   React.useEffect(() => {
     const updateNavbarColor = () => {
       if (
-        document.documentElement.scrollTop > 99 ||
+        document.documentElement.scrollTop > 0 ||
         document.body.scrollTop > 99
       ) {
         setNavbarColor("");
@@ -94,19 +94,19 @@ function ExamplesNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem className="">
-                <span className="badge badge-primary mt-n2" style={{position:"absolute", fontsize:"8px", border: "8px", padding:"-5do"}}>Free</span>
+               {/* <span className="badge badge-primary mt-n2" style={{position:"absolute", fontsize:"8px", border: "8px", padding:"-5do"}}>Free</span>*/}
                 <NavLink className=""
-                    href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                    href="#">
                   <p>Minta Meeting</p>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                <NavLink href="#">
                   Portofolio
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                <NavLink href="#">
                   Blog
                 </NavLink>
               </NavItem>
