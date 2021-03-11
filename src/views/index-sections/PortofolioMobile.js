@@ -12,10 +12,10 @@ function AndroidIos() {
             <div className="">
                 <h2 className="title text-center">Portofolio</h2>
                 <Container className="">
-                    <Row className="section">
-                        <Col sm={12} lg={6} md={5} className="order-lg-0 order-md-0 order-sm-0">
+                    <Row className="">
+                        <Col sm={12} lg={6} md={5} className="order-lg-0 section  order-md-0 order-sm-0">
                             <div
-                                className="order-lg-1 order-md-1 order-sm-0 d-flex  justify-content-center">
+                                className="order-lg-1 order-md-1 order-sm-0 d-flex justify-content-center">
                                 <img
                                     alt="..."
                                     className="img-fluid"
@@ -24,7 +24,7 @@ function AndroidIos() {
                                 ></img>
                             </div>
                         </Col>
-                        <Col sm={12} md={7} lg={6} className="order-lg-1 order-md-1 ß  align-self-center order-sm-1 mx-sm-2 mx-md-0 mx-lg-0">
+                        <Col sm={12} md={7} lg={6} className="order-lg-1 order-md-1 align-self-center order-sm-1 mx-sm-2 mx-md-0 mx-lg-0">
                             <h2 className="title text-right">Mobile Development <br/>Projects</h2>
                             <h5 className="text-right">
                                 Lihat portofolio project kami dengan bebagai bisnis model
