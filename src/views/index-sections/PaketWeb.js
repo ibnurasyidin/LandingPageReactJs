@@ -40,8 +40,8 @@ function NucleoIcons() {
                                 </Button>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-lg-4 p-lg-5">
-                            <div className="shadow bg-white rounded">
+                        <div className="col-sm-12 col-lg-4 p-lg-5 mt-5 mb-5">
+                            <div className="shadow bg-white rounded ">
                                 <li className="list-group-item card-img-top border-0">
                                     <h3r className="title font-weight-bold align-items-center text-secondary">Medium Business</h3r>
                                 </li>

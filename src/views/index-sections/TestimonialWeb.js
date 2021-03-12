@@ -33,7 +33,7 @@ function NucleoIcons() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-lg-4 p-lg-5">
+                        <div className="col-sm-12 col-lg-4 p-lg-5 mt-5 mb-5">
                             <div className=" bg-white rounded">
                                 <div className=" hero-images-container-1">
                                     <img
