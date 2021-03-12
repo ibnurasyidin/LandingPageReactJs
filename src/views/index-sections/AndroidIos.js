@@ -22,7 +22,7 @@ function AndroidIos() {
                                 ></img>
                             </div>
                         </Col>
-                        <Col sm={12} md={7} lg={6} className="section order-lg-0 order-md-0   align-self-center order-sm-1 mx-sm-2 mx-md-0 mx-lg-0">
+                        <Col sm={12} md={7} lg={6} className="order-lg-0 order-md-0 align-self-center order-sm-1 mx-sm-5 mx-md-0 mx-lg-0">
                             <h2 className="title ">Jasa Pembuatan Aplikasi Android</h2>
                             <h5 className="">
                                 Saat ini, banyak perusahaan startup maupun UKM yang
@@ -45,7 +45,7 @@ function AndroidIos() {
                                 ></img>
                             </div>
                         </Col>
-                        <Col sm={12} md={7} lg={6} className="order-lg-1 order-md-1   align-self-center order-sm-1 mx-sm-2 mx-md-0 mx-lg-0">
+                        <Col sm={12} md={7} lg={6} className="order-lg-1 order-md-1 align-self-center order-sm-1 mx-sm-5 mx-md-0 mx-lg-0">
                             <h2 className="title text-right">Jasa Pembuatan Aplikasi iOS</h2>
                             <h5 className="text-right">
                                 Selain Android dikembangkan oleh Google,

@@ -25,7 +25,7 @@ function PaketMobile() {
                     </div>
                     <div className="section">
                         <Row className="shadow  mx-auto w-75">
-                            <table className="table table-borderless border-0 ">
+                            <table className="table table-responsive-sm table-borderless border-0 ">
                                 <thead>
                                 <tr>
                                     <th scope="col"><h5
