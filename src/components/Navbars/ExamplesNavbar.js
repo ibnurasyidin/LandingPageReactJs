@@ -93,25 +93,24 @@ function ExamplesNavbar() {
                   Aplikasi Mobile
                 </NavLink>
               </NavItem>
-              <NavItem className="">
-               {/* <span className="badge badge-primary mt-n2" style={{position:"absolute", fontsize:"8px", border: "8px", padding:"-5do"}}>Free</span>*/}
-                <NavLink className=""
-                    href="#">
-                  <p>Minta Meeting</p>
+            <NavItem className="">
+             {/*   <span className="badge badge-primary mt-n2" style={{position:"absolute", fontsize:"8px", border: "8px", padding:"-5do"}}>Free</span>*/}
+                <NavLink to="/meeting-page" href="examples/MeetingPage.html" tag={Link}>
+                  <p>Atur Meeting</p>
                 </NavLink>
               </NavItem>
-              <NavItem>
+             {/* <NavItem>
                 <NavLink href="#">
                   Portofolio
                 </NavLink>
-              </NavItem>
-              <NavItem>
+              </NavItem>*/}
+            {/*  <NavItem>
                 <NavLink href="#">
                   Blog
                 </NavLink>
-              </NavItem>
+              </NavItem>*/}
               <NavItem>
-              <Button
+              {/*<Button
                   className="btn-round mr-2"
                   color="success"
                   //href="/nucleo-icons"
@@ -120,8 +119,8 @@ function ExamplesNavbar() {
                   target="_blank"
               >
                 Hubungi Kami
-              </Button>
-              </NavItem>
+              </Button>*/}
+             </NavItem>
             </Nav>
           </Collapse>
         </Container>
