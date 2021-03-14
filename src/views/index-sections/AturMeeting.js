@@ -1,6 +1,17 @@
 import React from "react";
 // reactstrap components
-import {Button, Container, Row, Col, FormGroup, Input, InputGroup, InputGroupAddon, InputGroupText} from "reactstrap";
+import {
+    Button,
+    Container,
+    Row,
+    Col,
+    FormGroup,
+    Input,
+    InputGroup,
+    InputGroupAddon,
+    InputGroupText,
+    Label
+} from "reactstrap";
 import {Link} from "react-router-dom";
 
 // core components
@@ -28,11 +39,12 @@ function AturMeeting() {
                                id="inlineRadio2" value="option2" disabled/>
                         <label className="form-check-label" htmlFor="inlineRadio2">Perusahaan</label>
                     </div>
+                    <div className="space-50"></div>
                     <Row className="">
 
                         <Col sm={12} lg={6} md={5} className="order-lg-0 order-md-0 order-sm-0">
 
-                            <div className="space-50"></div>
+
                             <div>
                                 <Row>
                                     <Col lg="12" sm="12" className="mb-4">
@@ -81,11 +93,11 @@ function AturMeeting() {
                                     </Col>
                                 </Row>
                             </div>
-                            <div className="space-70"></div>
-
+                            {/*<div className="space-70"></div>
+*/}
                         </Col>
                         <Col sm={12} md={7} lg={6} className="order-lg-1 order-md-1 align-self-center order-sm-1 mx-sm-2 mx-md-0 mx-lg-0">
-                            <div className="space-50"></div>
+                           {/* <div className="space-50"></div>*/}
                             <div>
                                 <Row>
                                     <Col lg="12" sm="12" className="mb-4">
@@ -133,10 +145,41 @@ function AturMeeting() {
                                         </FormGroup>
                                     </Col>
                                 </Row>
+
                             </div>
-                            <div className="space-70"></div>
+
+                            {/*<div className="space-70"></div>*/}
                         </Col>
 
+                    </Row>
+                    <Row>
+                        <Col>
+                        <div className="text-secondary justify-content-left align-items-left">
+                            <div className="mb-4">
+                                <FormGroup check>
+                                    <Label check>
+                                        <Input type="checkbox"></Input>
+                                        <span className="form-check-sign "></span>
+                                        Tambahkan jadwal ke Google Calendar
+                                    </Label>
+                                </FormGroup>
+                            </div>
+                            <div>
+                                <Button
+                                    className="btn-default rounded-b "
+                                    color="success"
+                                    //to="/web-page"
+                                    tag={Link}
+                                    //href="examples/WebPage.html"
+                                    href="https://wa.me/6281314721408?text=Assalamualaikum%20saya%20tertarik%20dengan%20layanan%20anda%20"
+                                    size="md"
+                                    target="_blank">
+                                    Buat Meeting
+                                </Button>
+                            </div>
+                            <div className="space-70"></div>
+                        </div>
+                        </Col>
                     </Row>
                 </Container>
             </div>
