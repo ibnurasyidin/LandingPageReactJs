@@ -35,6 +35,8 @@ import MainMobile from "../index-sections/MainMobile";
 import AndroidIos from "../index-sections/AndroidIos";
 import PaketMobile from "../index-sections/PaketMobile";
 import PortofolioMobile from "../index-sections/PortofolioMobile";
+import MainSprintPorto from "../index-sections/MainSprintPorto";
+import CustomerSatisfaction from "../index-sections/CustomerSatisfaction";
 
 function Portofolio() {
     const [pills, setPills] = React.useState("2");
@@ -54,13 +56,9 @@ function Portofolio() {
             <ExamplesNavbar/>
             <div className="wrapper">
                 <div className="main">
-                    <MainMobile/>
-                    <PortofolioMobile/>
-                    <AndroidIos/>
-                    <PaketMobile/>
-                    {/*<OurTechnologies/>*/}
-                    {/*<WhyUs/>*/}
-                    <Bantuan/>
+                    <MainSprintPorto/>
+                    <CustomerSatisfaction/>
+                    <OurClients/>
                     <Footer/>
                 </div>
 
