@@ -99,16 +99,11 @@ function ExamplesNavbar() {
                   <p>Atur Meeting</p>
                 </NavLink>
               </NavItem>
-             {/* <NavItem>
-                <NavLink href="#">
+              <NavItem>
+                <NavLink to="/portofolio" href="examples/Portofolio.html" tag={Link}>
                   Portofolio
                 </NavLink>
-              </NavItem>*/}
-            {/*  <NavItem>
-                <NavLink href="#">
-                  Blog
-                </NavLink>
-              </NavItem>*/}
+              </NavItem>
               <NavItem>
               {/*<Button
                   className="btn-round mr-2"
