@@ -36,6 +36,7 @@ import AndroidIos from "../index-sections/AndroidIos";
 import PaketMobile from "../index-sections/PaketMobile";
 import PortofolioMobile from "../index-sections/PortofolioMobile";
 import ThankYou from "../index-sections/ThankYou";
+import AturMeeting from "../index-sections/AturMeeting";
 
 function MobilePage() {
     const [pills, setPills] = React.useState("2");
@@ -57,6 +58,7 @@ function MobilePage() {
                 <div className="main">
                     {/*<MainMobile/>*/}
                     <ThankYou/>
+                    <AturMeeting/>
                     <Footer/>
                 </div>
                 <DarkFooter/>
