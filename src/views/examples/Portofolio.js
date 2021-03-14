@@ -37,6 +37,7 @@ import PaketMobile from "../index-sections/PaketMobile";
 import PortofolioMobile from "../index-sections/PortofolioMobile";
 import MainSprintPorto from "../index-sections/MainSprintPorto";
 import CustomerSatisfaction from "../index-sections/CustomerSatisfaction";
+import Testimonials from "../index-sections/Testimonials";
 
 function Portofolio() {
     const [pills, setPills] = React.useState("2");
@@ -58,7 +59,9 @@ function Portofolio() {
                 <div className="main">
                     <MainSprintPorto/>
                     <CustomerSatisfaction/>
+                    <Testimonials/>
                     <OurClients/>
+                    <TestimonialWeb/>
                     <Footer/>
                 </div>
 

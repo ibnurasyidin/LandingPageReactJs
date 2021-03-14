@@ -12,7 +12,7 @@ function NucleoIcons() {
             <div className="section d-flex justify-content-between">
                 <Container className="justify-content-center">
                     <h2 className="title text-center">Portofolio</h2>
-                    <div className="mt-5 row d-flex align-items-baseline">
+                    <div className="row d-flex align-items-baseline">
                         <div className="col-sm-12 col-lg-4 p-lg-5">
                             <div className=" bg-white rounded">
                                 <div className=" hero-images-container-1">
@@ -33,7 +33,7 @@ function NucleoIcons() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-lg-4 p-lg-5 mt-5 mb-5">
+                        <div className="col-sm-12 col-lg-4 p-lg-5 mb-5">
                             <div className=" bg-white rounded">
                                 <div className=" hero-images-container-1">
                                     <img
