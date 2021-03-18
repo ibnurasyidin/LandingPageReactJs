@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 // core components
 
-function NucleoIcons() {
+function TestimonialWeb() {
     return (
         <>
 
@@ -17,15 +17,15 @@ function NucleoIcons() {
                             <div className=" bg-white rounded">
                                 <div className=" hero-images-container-1">
                                     <img
-                                        className="shadow"
+                                        className="shadow rounded-a"
                                         alt="..."
-                                        src={require("assets/img/web-1.png")}
+                                        src={require("assets/img/pic-eligaman.png")}
 
                                     ></img>
                                 </div>
                                {/* <li className="text-left mt-2 list-group-item card-img-top border-0">*/}
                                <div className="mt-3">
-                                    <h5x className="mt-3 font-weight-bold text-left">PT. Tajriy Sentosa Indonesia membeli
+                                    <h5x className="mt-3 font-weight-bold text-left">Eligaman membeli
                                         paket Pro Web Business </h5x>
                                </div>
                                 <div className="mt-3">
@@ -37,15 +37,15 @@ function NucleoIcons() {
                             <div className=" bg-white rounded">
                                 <div className=" hero-images-container-1">
                                     <img
-                                        className="shadow"
+                                        className="shadow rounded-a"
                                         alt="..."
-                                        src={require("assets/img/web-1.png")}
+                                        src={require("assets/img/pic-ethan.png")}
 
                                     ></img>
                                 </div>
                                 {/* <li className="text-left mt-2 list-group-item card-img-top border-0">*/}
                                 <div className="mt-3">
-                                    <h5x className="mt-3 font-weight-bold text-left">PT. Tajriy Sentosa Indonesia membeli
+                                    <h5x className="mt-3 font-weight-bold text-left">Ethan Laundry membeli
                                         paket Pro Web Business </h5x>
                                 </div>
                                 <div className="mt-3">
@@ -57,15 +57,15 @@ function NucleoIcons() {
                             <div className=" bg-white rounded">
                                 <div className=" hero-images-container-1">
                                     <img
-                                        className="shadow"
+                                        className="shadow rounded-a"
                                         alt="..."
-                                        src={require("assets/img/web-1.png")}
+                                        src={require("assets/img/pic-bkksda.png")}
 
                                     ></img>
                                 </div>
                                 {/* <li className="text-left mt-2 list-group-item card-img-top border-0">*/}
                                 <div className="mt-3">
-                                    <h5x className="mt-3 font-weight-bold text-left">PT. Tajriy Sentosa Indonesia membeli
+                                    <h5x className="mt-3 font-weight-bold text-left">BKKSDA Riau membeli
                                         paket Pro Web Business </h5x>
                                 </div>
                                 <div className="mt-3">
@@ -80,4 +80,4 @@ function NucleoIcons() {
     );
 }
 
-export default NucleoIcons;
+export default TestimonialWeb;
