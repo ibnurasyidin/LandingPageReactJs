@@ -9,10 +9,9 @@ function AndroidIos() {
     return (
         <>
 
-            <div className="">
-                <h2 className="title text-center">Portofolio</h2>
+            <div className="section">
                 <Container className="">
-                    <Row className="section">
+                    <Row className="">
                         <Col sm={12} lg={6} md={5} className="order-lg-0 order-md-0 order-sm-0">
                             <div
                                 className="order-lg-1 order-md-1 order-sm-0 d-flex justify-content-center">

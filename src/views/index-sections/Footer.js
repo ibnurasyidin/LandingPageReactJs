@@ -48,7 +48,7 @@ function Footer() {
                                     <div className="text-justify">
                                         <a href="#"> <h5 className="text-white mt-4">Sistem Informasi</h5></a>
                                             <a href="#">  <h5 className="text-white">Aplikasi Mobile</h5></a>
-                                                <a href="#"><h5 className="text-white">ERP</h5></a>
+
                                                     <a href="#">  <h5 className="text-white">Company Profile</h5></a>
                                     </div>
                                 </div>
