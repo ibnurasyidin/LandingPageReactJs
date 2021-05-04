@@ -105,6 +105,11 @@ function ExamplesNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
+                <NavLink to="/blog" href="examples/Blog.html" tag={Link}>
+                  Blog
+                </NavLink>
+              </NavItem>
+              <NavItem>
               {/*<Button
                   className="btn-round mr-2"
                   color="success"

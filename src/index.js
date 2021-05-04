@@ -18,6 +18,7 @@ import WebPage from "views/examples/WebPage.js";
 import MobilePage from "./views/examples/MobilePage";
 import MeetingPage from "./views/examples/MeetingPage";
 import Portofolio from "./views/examples/Portofolio";
+import Blog from "./views/examples/Blog";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -47,6 +48,10 @@ ReactDOM.render(
         <Route
             path="/portofolio"
             render={props => <Portofolio {...props}/>}
+        />
+        <Route
+            path="/blog"
+            render={props => <Blog {...props}/>}
         />
         <Route path="/login-page" render={props => <LoginPage {...props} />} />
         <Redirect to="/index" />
