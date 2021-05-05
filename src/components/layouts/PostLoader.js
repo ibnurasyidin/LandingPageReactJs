@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PostLoader = () => (
-	<div className="container blog">
+	<div className="container blog section">
 		<div className="post-wrapper">
 			<a href="#" className="post-title loader-title"/>
 			<div className="loader-img"/>

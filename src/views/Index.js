@@ -19,6 +19,7 @@ import OurTechnologies from "./index-sections/OurTechnologies";
 import Bantuan from "./index-sections/Bantuan";
 import Footer from "./index-sections/Footer";
 
+
 function Index() {
   React.useEffect(() => {
     document.body.classList.add("landing-page");
@@ -42,7 +43,6 @@ function Index() {
             <Bantuan/>
             <Footer/>
           </div>
-
           <DefaultFooter/>
         </div>
       </>

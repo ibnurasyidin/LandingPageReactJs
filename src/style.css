@@ -1,6 +1,6 @@
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+/*@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";*/
 
-body {
+/*body {
 	font-family: 'Poppins', sans-serif;
 	background: #fafafa;
 }
@@ -11,7 +11,7 @@ p {
 	font-weight: 300;
 	line-height: 1.7em;
 	color: #999;
-}
+}*/
 
 a,
 a:hover,
@@ -23,6 +23,7 @@ a:focus {
 
 .container.blog {
 	max-width: 960px;
+	padding-top: 100px;
 }
 
 .navbar {
@@ -51,10 +52,10 @@ a:focus {
     SIDEBAR STYLE
 ----------------------------------------------------- */
 
-.wrapper {
+/*.wrapper {
 	display: flex;
 	width: 100%;
-}
+}*/
 
 #sidebar {
 	width: 250px;
@@ -201,7 +202,7 @@ a.article:hover {
 	width: 100%;
 }
 
-.main-navbar {
+/*.main-navbar {
 	background-color: #50b8dc;
 	display: flex;
 	justify-content: flex-end;
@@ -209,7 +210,7 @@ a.article:hover {
 
 .main-content {
 	padding: 0 24px;
-}
+}*/
 
 .sidebar-header .nav-link {
 	font-size: 24px !important;

@@ -19,7 +19,7 @@ import MobilePage from "./views/examples/MobilePage";
 import MeetingPage from "./views/examples/MeetingPage";
 import Portofolio from "./views/examples/Portofolio";
 import Blog from "./views/examples/Blog";
-
+import './style.css';
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
