@@ -20,6 +20,7 @@ import MeetingPage from "./views/examples/MeetingPage";
 import Portofolio from "./views/examples/Portofolio";
 import Blog from "./views/examples/Blog";
 import './style.css';
+import Blogv1 from "./views/examples/Blogv1";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
@@ -52,6 +53,10 @@ ReactDOM.render(
         <Route
             path="/blog"
             render={props => <Blog {...props}/>}
+        />
+        <Route
+            path="/blogv1"
+            render={props => <Blogv1 {...props}/>}
         />
         <Route path="/login-page" render={props => <LoginPage {...props} />} />
         <Redirect to="/index" />

@@ -57,7 +57,7 @@ function Blog() {
         <>
             <React.Fragment>
                 <ExamplesNavbar/>
-                {/*<Posts pageId={1}/>*/}
+                <Posts pageId={1}/>
             </React.Fragment>
             <div className="wrapper">
                 <div className="main">
