@@ -39,6 +39,7 @@ import MainSprintPorto from "../index-sections/MainSprintPorto";
 import CustomerSatisfaction from "../index-sections/CustomerSatisfaction";
 import Testimonials from "../index-sections/Testimonials";
 import {Posts} from "../../components/Posts";
+import Postsv1 from "../../components/Postsv1";
 
 function Blog() {
     const [pills, setPills] = React.useState("2");
@@ -57,7 +58,7 @@ function Blog() {
         <>
             <React.Fragment>
                 <ExamplesNavbar/>
-            <Posts pageId={1}/>
+            <Postsv1 pageId={1}/>
             </React.Fragment>
             <div className="wrapper">
                 <div className="main">
