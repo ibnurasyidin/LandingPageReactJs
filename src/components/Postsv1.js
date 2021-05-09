@@ -50,6 +50,9 @@ export const Postsv1 = ( props ) => {
 		<React.Fragment>
 			{ loading ? <PostLoader/> : '' }
 			<div className="container blog" style={ { overflow: 'hidden' } }>
+				<div className="album py-5 bg-light">
+					<div className="container">
+						<div className="row">
 				{ ( !loading && null !== posts && posts.length ) ? (
 					<React.Fragment>
 						{ getPosts( posts ) }
@@ -60,6 +63,9 @@ export const Postsv1 = ( props ) => {
 						/>
 					</React.Fragment>
 				) : <div>{ errMessage }</div> }
+						</div>
+					</div>
+				</div>
 			</div>
 		</React.Fragment>
 	)
