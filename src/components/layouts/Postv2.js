@@ -32,7 +32,7 @@ export const Post = (props) => {
                         {/*	Categories*/}
                         { post.categories.length ? (
                             <div className="post-category">
-                                {/*<i className="fa fa-folder"/>*/}
+
                                 {
                                     post.categories.map( ( category, index ) => {
                                         return (
