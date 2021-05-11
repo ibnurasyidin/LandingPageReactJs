@@ -11,6 +11,7 @@ import "assets/demo/nucleo-icons-page-styles.css";
 //import "assets/css/now-ui-kit.css";
 // pages for this kit
 import Index from "views/Index.js";
+import SinglePost from "./components/SinglePost";
 import LoginPage from "views/examples/LoginPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
@@ -21,6 +22,8 @@ import Portofolio from "./views/examples/Portofolio";
 import Blog from "./views/examples/Blog";
 import './style.css';
 import Blogv1 from "./views/examples/Blogv1";
+
+
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
@@ -58,7 +61,12 @@ ReactDOM.render(
             path="/blogv1"
             render={props => <Blogv1 {...props}/>}
         />
+        <Route
+            path="/post/:id"
+            render={props => <SinglePost {...props}/>}
+        />
         <Route path="/login-page" render={props => <LoginPage {...props} />} />
+       {/* <SinglePost path="/post/:id"/>*/}
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
       </Switch>

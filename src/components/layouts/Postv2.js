@@ -2,6 +2,7 @@ import React from 'react';
 import FeaturedImage from "./FeaturedImage";
 import {Link} from '@reach/router';
 import {sanitize} from "../../utils/functions";
+import Moment from 'react-moment';
 
 export const Post = (props) => {
 
@@ -56,6 +57,12 @@ export const Post = (props) => {
                             </button>
                             <button type="button" className="btn btn-sm btn-outline-secondary">Edit
                             </button>
+                        </div>
+                        <div className="card-footer">
+                            <Moment fromNow >{post.date}</Moment>
+                            <Link to={`/post/${post.id}`} className="btn btn-secondary float-right" style={{ textDecoration: 'none' }}>
+                                Read More...
+                            </Link>
                         </div>
                         <small className="text-muted">9 mins</small>
                     </div>
