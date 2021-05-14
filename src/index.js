@@ -22,6 +22,7 @@ import Portofolio from "./views/examples/Portofolio";
 import Blog from "./views/examples/Blog";
 import './style.css';
 import Blogv1 from "./views/examples/Blogv1";
+import Home from "./components/Home";
 
 
 ReactDOM.render(
@@ -64,6 +65,10 @@ ReactDOM.render(
         <Route
             path="/post/:id"
             render={props => <SinglePost {...props}/>}
+        />
+        <Route
+            path="/"
+            render={props => <Home {...props}/>}
         />
         <Route path="/login-page" render={props => <LoginPage {...props} />} />
        {/* <SinglePost path="/post/:id"/>*/}
