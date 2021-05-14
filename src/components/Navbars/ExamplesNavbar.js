@@ -115,7 +115,7 @@ function ExamplesNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/home" href="examples/Home.html" tag={Link}>
+                <NavLink to="/home" href="Home_js.html" tag={Link}>
                   Blogv2
                 </NavLink>
               </NavItem>

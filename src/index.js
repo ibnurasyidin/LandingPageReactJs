@@ -22,7 +22,7 @@ import Portofolio from "./views/examples/Portofolio";
 import Blog from "./views/examples/Blog";
 import './style.css';
 import Blogv1 from "./views/examples/Blogv1";
-import Home from "./components/Home";
+import Homeo from "./components/Homeo";
 
 
 ReactDOM.render(
@@ -67,8 +67,8 @@ ReactDOM.render(
             render={props => <SinglePost {...props}/>}
         />
         <Route
-            path="/"
-            render={props => <Home {...props}/>}
+            path="/home"
+            render={props => <Homeo {...props}/>}
         />
         <Route path="/login-page" render={props => <LoginPage {...props} />} />
        {/* <SinglePost path="/post/:id"/>*/}

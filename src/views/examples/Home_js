@@ -7,7 +7,7 @@ import Moment from 'react-moment';
 import { Link } from '@reach/router';
 import clientConfig from '../client-config';
 
-class Home extends React.Component {
+class Home_ extends React.Component {
 
 	constructor( props ) {
 		super( props );
@@ -48,7 +48,7 @@ class Home extends React.Component {
 
 		return(
 			<React.Fragment>
-				<Navbar/>
+				{/*<Navbar/>*/}
 				{ error && <div className="alert alert-danger" dangerouslySetInnerHTML={ this.createMarkup( error ) }/> }
 				{ posts.length ? (
 					<div className="mt-5 posts-container">
@@ -78,4 +78,4 @@ class Home extends React.Component {
 	}
 }
 
-export default Home;
+export default Home_;

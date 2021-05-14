@@ -11,18 +11,14 @@ import clientConfig from "client-config";
 
 export const Post = (props) => {
 
-    this.state = {
+   /* this.state = {
         loading: false,
         posts: [],
         error: ''
-    };
+    };*/
 
     const {post} = props;
 
-
-   /* createMarkup = ( data ) => ({
-        __html: data
-    });*/
 
    /* useEffect(()=>
     {

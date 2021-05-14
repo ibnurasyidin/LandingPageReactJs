@@ -6,8 +6,11 @@ import renderHTML from 'react-render-html';
 import Moment from 'react-moment';
 import { Link } from '@reach/router';
 import clientConfig from '../client-config';
+import ExamplesNavbar from "./Navbars/ExamplesNavbar";
+import Footer from "../views/index-sections/Footer";
+import DarkFooter from "./Footers/DarkFooter";
 
-class Home extends React.Component {
+class Homeo extends React.Component {
 
 	constructor( props ) {
 		super( props );
@@ -48,6 +51,7 @@ class Home extends React.Component {
 
 		return(
 			<React.Fragment>
+				<ExamplesNavbar/>
 				{/*<Navbar/>*/}
 				{ error && <div className="alert alert-danger" dangerouslySetInnerHTML={ this.createMarkup( error ) }/> }
 				{ posts.length ? (
@@ -73,9 +77,18 @@ class Home extends React.Component {
 					</div>
 				) : '' }
 				{ loading && <img className="loader" src={Loader} alt="Loader"/> }
+
+				<div className="wrapper">
+					<div className="main">
+						<Footer/>
+					</div>
+					<DarkFooter/>
+				</div>
 			</React.Fragment>
+
 		);
+
 	}
 }
 
-export default Home;
+export default Homeo;
