@@ -62,10 +62,11 @@ ReactDOM.render(
             path="/blogv1"
             render={props => <Blogv1 {...props}/>}
         />
-        <Route
+        {/*<Route
             path="/post/:id"
             render={props => <SinglePost {...props}/>}
-        />
+        />*/}
+        <SinglePost path="/post/:id"/>
         <Route
             path="/home"
             render={props => <Homeo {...props}/>}
