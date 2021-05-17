@@ -23,7 +23,17 @@ import Blog from "./views/examples/Blog";
 import './style.css';
 import Blogv1 from "./views/examples/Blogv1";
 import Homeo from "./components/Homeo";
+import Login from "./components/Login";
+import Dashboard from "./components/dashboard/Dashboard";
+import Pages from "./components/dashboard/pages/Pages";
+import CreatePost from "./components/dashboard/posts/CreatePost";
+import Posts from "./components/Posts";
+import Blogs from "./components/Blogs";
 
+
+function Page(props) {
+  return null;
+}
 
 ReactDOM.render(
   <BrowserRouter>
@@ -62,11 +72,18 @@ ReactDOM.render(
             path="/blogv1"
             render={props => <Blogv1 {...props}/>}
         />
-        {/*<Route
+        <Route
             path="/post/:id"
             render={props => <SinglePost {...props}/>}
-        />*/}
+        />
         <SinglePost path="/post/:id"/>
+        <Login path="/login"/>
+        <Dashboard path="/dashboard"/>
+        <Posts path="/dashboard/posts"/>
+        <CreatePost path="/dashboard/create-post"/>
+        <Pages path="/dashboard/pages" />
+        <Page path="/page/:id"/>
+        <Blogs path="/blogs/"/>
         <Route
             path="/home"
             render={props => <Homeo {...props}/>}
