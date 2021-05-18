@@ -4,7 +4,11 @@ import axios from 'axios';
 import Loader from "../loader.gif";
 import renderHTML from 'react-render-html';
 import Moment from 'react-moment';
-import { Link } from '@reach/router';
+// import { Link } from '@reach/router';
+import { Link } from 'react-router-dom';
+/*import { Link } from 'react-dom';*/
+
+
 import clientConfig from '../client-config';
 import ExamplesNavbar from "./Navbars/ExamplesNavbar";
 import Footer from "../views/index-sections/Footer";
@@ -68,6 +72,7 @@ class Homeo extends React.Component {
 								</div>
 								<div className="card-footer">
 									<Moment fromNow >{post.date}</Moment>
+									{/*<Link to={`/post/${post.id}`} className="btn btn-secondary float-right" style={{ textDecoration: 'none' }}>*/}
 									<Link to={`/post/${post.id}`} className="btn btn-secondary float-right" style={{ textDecoration: 'none' }}>
 										Read More...
 									</Link>

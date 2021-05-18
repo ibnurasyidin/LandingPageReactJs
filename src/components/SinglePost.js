@@ -1,19 +1,22 @@
 import React from 'react';
 import Navbar from "./Navbar";
-import renderHTML from "react-render-html";
+import renderHTML from 'react-render-html';
 import Moment from "react-moment";
 import Loader from "../loader.gif";
-import axios from "axios";
+import axios from 'axios';
 import clientConfig from "../client-config";
+
+
 
 class SinglePost extends React.Component {
 
-	constructor( props ) {
-		super( props );
+	constructor(props) {
+		super(props);
+		console.log(this.props)
 
 		this.state = {
-			loading : false,
 			post: {},
+			loading : false,
 			error: ''
 		};
 	}
@@ -26,7 +29,8 @@ class SinglePost extends React.Component {
 		const wordPressSiteURL = clientConfig.siteUrl;
 
 		this.setState( { loading: true }, () => {
-			axios.get( `${wordPressSiteURL}/wp-json/wp/v2/posts/${this.props.id}` )
+			//error tidak dapat mengambil data props id
+			axios.get(`${wordPressSiteURL}/wp-json/wp/v2/posts/${this.props.id}`)
 				.then( res => {
 
 					if ( Object.keys( res.data ).length ) {
@@ -51,7 +55,7 @@ class SinglePost extends React.Component {
 					<div className="mt-5 posts-container">
 						<div key={post.id} className="card border-dark mb-3" style={{maxWidth: '50rem'}}>
 							<div className="card-header">
-								{renderHTML( post.title.rendered )}
+								{renderHTML( post.title.rendered)}
 							</div>
 							<div className="card-body">
 								<div className="card-text post-content">{ renderHTML( post.content.rendered ) }</div>

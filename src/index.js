@@ -76,7 +76,7 @@ ReactDOM.render(
             path="/post/:id"
             render={props => <SinglePost {...props}/>}
         />
-        <SinglePost path="/post/:id"/>
+        {/*<SinglePost path="/post/:id"/>*/}
         <Login path="/login"/>
         <Dashboard path="/dashboard"/>
         <Posts path="/dashboard/posts"/>
